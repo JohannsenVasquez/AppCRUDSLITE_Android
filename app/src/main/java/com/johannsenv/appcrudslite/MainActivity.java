@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         edtuser = (EditText) findViewById(R.id.edtuser);
         edtclave = (EditText) findViewById(R.id.edtclave);
-        edtrclave = (EditText) findViewById(R.id.edtrtclave);
+        edtrclave = (EditText) findViewById(R.id.edtrclave);
         rbactivo = (RadioButton) findViewById(R.id.rbactivo);
         rbinactivo = (RadioButton) findViewById(R.id.rbinactivo);
         if (rbactivo.isChecked()==true){
@@ -93,5 +93,8 @@ public class MainActivity extends AppCompatActivity {
         edtrclave.setText("");
         rbactivo.setChecked(true);
         rbinactivo.setChecked(false);
+    }
+    public void Bienvenido (View view){
+
     }
 }
